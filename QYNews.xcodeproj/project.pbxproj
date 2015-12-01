@@ -44,6 +44,8 @@
 		CC60089C1C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008861C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png */; };
 		CC60089D1C083C4000CA7708 /* tabbar_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008871C083C4000CA7708 /* tabbar_shadow@2x.png */; };
 		CCAB299B1C0C858800AEE3D5 /* login_username_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB299A1C0C858800AEE3D5 /* login_username_icon@2x.png */; };
+		CCB0FACC1C0DBEE30085753B /* users.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB0FACB1C0DBEE30085753B /* users.plist */; };
+		CCB0FACE1C0DC17C0085753B /* kaifeng.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB0FACD1C0DC17C0085753B /* kaifeng.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		CC6008861C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_reader_normal@2x.png"; sourceTree = "<group>"; };
 		CC6008871C083C4000CA7708 /* tabbar_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_shadow@2x.png"; sourceTree = "<group>"; };
 		CCAB299A1C0C858800AEE3D5 /* login_username_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_username_icon@2x.png"; sourceTree = "<group>"; };
+		CCB0FACB1C0DBEE30085753B /* users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = users.plist; sourceTree = "<group>"; };
+		CCB0FACD1C0DC17C0085753B /* kaifeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaifeng.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 		CC6008061C08393D00CA7708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCB0FACB1C0DBEE30085753B /* users.plist */,
+				CCB0FACD1C0DC17C0085753B /* kaifeng.png */,
 				CC487B701C0C64B80066D8DC /* icon.png */,
 				CC487B691C0C54000066D8DC /* lanch.png */,
 				CC6008071C08393D00CA7708 /* Info.plist */,
@@ -326,6 +332,7 @@
 				CC6008941C083C4000CA7708 /* tabbar_icon_found_normal@2x.png in Resources */,
 				CC60088A1C083C4000CA7708 /* night_tabbar_icon_me_highlight@2x.png in Resources */,
 				CC487B711C0C64B80066D8DC /* icon.png in Resources */,
+				CCB0FACE1C0DC17C0085753B /* kaifeng.png in Resources */,
 				CC6008981C083C4000CA7708 /* tabbar_icon_media_normal@2x.png in Resources */,
 				CC6008121C08393D00CA7708 /* Main.storyboard in Resources */,
 				CCAB299B1C0C858800AEE3D5 /* login_username_icon@2x.png in Resources */,
@@ -342,6 +349,7 @@
 				CC60088B1C083C4000CA7708 /* night_tabbar_icon_me_normal@2x.png in Resources */,
 				CC6008911C083C4000CA7708 /* night_tabbar_icon_reader_normal@2x.png in Resources */,
 				CC60089A1C083C4000CA7708 /* tabbar_icon_news_normal@2x.png in Resources */,
+				CCB0FACC1C0DBEE30085753B /* users.plist in Resources */,
 				CC6008971C083C4000CA7708 /* tabbar_icon_media_highlight@2x.png in Resources */,
 				CC60089C1C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png in Resources */,
 				CC6008891C083C4000CA7708 /* night_tabbar_icon_found_normal@2x.png in Resources */,
@@ -500,10 +508,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QYNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -513,10 +522,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QYNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -524,10 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -544,10 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QYNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
