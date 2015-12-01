@@ -43,8 +43,10 @@
     //创建用户头像button
     UIButton *userImage = [[UIButton alloc] initWithFrame:CGRectMake(kScreenW / 2 - 30, userView.frame.size.height / 5, 60, 60)];
     userImage.backgroundColor = [UIColor whiteColor];
-    [userImage setImage:[UIImage imageNamed:@"login_username_icon"] forState:UIControlStateNormal];
-    userImage.layer.cornerRadius = 20;
+    [userImage setImage:[UIImage imageNamed:@"icon"] forState:UIControlStateNormal];
+    //设置圆角button
+    userImage.layer.cornerRadius = 30;
+    userImage.layer.masksToBounds = YES;
     [self.view addSubview:userImage];
     
     //创建显示用户名button
