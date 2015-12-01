@@ -40,10 +40,10 @@
     QYDiscoverViewController *discoverVC = [[QYDiscoverViewController alloc] init];
     UINavigationController *fourthNav = [[UINavigationController alloc] initWithRootViewController:discoverVC];
     
-    QYMeViewController *profileVC = [[QYMeViewController alloc] init];
-    UINavigationController *fifthNav = [[UINavigationController alloc] initWithRootViewController:profileVC];
+    QYMeViewController *meVC = [[QYMeViewController alloc] init];
+//    UINavigationController *fifthNav = [[UINavigationController alloc] initWithRootViewController:profileVC];
     
-    NSArray *viewControllers = @[firstNav,secondNav,thirdNav,fourthNav,fifthNav];
+    NSArray *viewControllers = @[firstNav,secondNav,thirdNav,fourthNav,meVC];
     
     UITabBarController *mainViewController = [[UITabBarController alloc] init];
     mainViewController.viewControllers = viewControllers;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC487B6B1C0C54000066D8DC /* lanch.png in Resources */ = {isa = PBXBuildFile; fileRef = CC487B691C0C54000066D8DC /* lanch.png */; };
 		CC487B711C0C64B80066D8DC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC487B701C0C64B80066D8DC /* icon.png */; };
+		CC487B731C0C685D0066D8DC /* QYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC487B721C0C685D0066D8DC /* QYMeViewController.m */; };
 		CC6008091C08393D00CA7708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6008081C08393D00CA7708 /* main.m */; };
 		CC60080C1C08393D00CA7708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC60080B1C08393D00CA7708 /* AppDelegate.m */; };
 		CC60080F1C08393D00CA7708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC60080E1C08393D00CA7708 /* ViewController.m */; };
@@ -20,7 +21,6 @@
 		CC6008321C0839E400CA7708 /* QYReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6008311C0839E400CA7708 /* QYReaderViewController.m */; };
 		CC6008351C0839F300CA7708 /* QYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6008341C0839F300CA7708 /* QYVideoViewController.m */; };
 		CC6008381C083A1300CA7708 /* QYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6008371C083A1300CA7708 /* QYDiscoverViewController.m */; };
-		CC60083B1C083A1F00CA7708 /* QYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC60083A1C083A1F00CA7708 /* QYMeViewController.m */; };
 		CC6008881C083C4000CA7708 /* night_tabbar_icon_found_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008721C083C4000CA7708 /* night_tabbar_icon_found_highlight@2x.png */; };
 		CC6008891C083C4000CA7708 /* night_tabbar_icon_found_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008731C083C4000CA7708 /* night_tabbar_icon_found_normal@2x.png */; };
 		CC60088A1C083C4000CA7708 /* night_tabbar_icon_me_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008741C083C4000CA7708 /* night_tabbar_icon_me_highlight@2x.png */; };
@@ -43,6 +43,7 @@
 		CC60089B1C083C4000CA7708 /* tabbar_icon_reader_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008851C083C4000CA7708 /* tabbar_icon_reader_highlight@2x.png */; };
 		CC60089C1C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008861C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png */; };
 		CC60089D1C083C4000CA7708 /* tabbar_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6008871C083C4000CA7708 /* tabbar_shadow@2x.png */; };
+		CCAB299B1C0C858800AEE3D5 /* login_username_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB299A1C0C858800AEE3D5 /* login_username_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		CC487B691C0C54000066D8DC /* lanch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanch.png; sourceTree = "<group>"; };
 		CC487B701C0C64B80066D8DC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CC487B721C0C685D0066D8DC /* QYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMeViewController.m; sourceTree = "<group>"; };
 		CC6008031C08393D00CA7708 /* QYNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6008071C08393D00CA7708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6008081C08393D00CA7708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,7 +82,6 @@
 		CC6008361C083A1300CA7708 /* QYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDiscoverViewController.h; sourceTree = "<group>"; };
 		CC6008371C083A1300CA7708 /* QYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDiscoverViewController.m; sourceTree = "<group>"; };
 		CC6008391C083A1F00CA7708 /* QYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMeViewController.h; sourceTree = "<group>"; };
-		CC60083A1C083A1F00CA7708 /* QYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMeViewController.m; sourceTree = "<group>"; };
 		CC6008721C083C4000CA7708 /* night_tabbar_icon_found_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_tabbar_icon_found_highlight@2x.png"; sourceTree = "<group>"; };
 		CC6008731C083C4000CA7708 /* night_tabbar_icon_found_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_tabbar_icon_found_normal@2x.png"; sourceTree = "<group>"; };
 		CC6008741C083C4000CA7708 /* night_tabbar_icon_me_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_tabbar_icon_me_highlight@2x.png"; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		CC6008851C083C4000CA7708 /* tabbar_icon_reader_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_reader_highlight@2x.png"; sourceTree = "<group>"; };
 		CC6008861C083C4000CA7708 /* tabbar_icon_reader_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_reader_normal@2x.png"; sourceTree = "<group>"; };
 		CC6008871C083C4000CA7708 /* tabbar_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_shadow@2x.png"; sourceTree = "<group>"; };
+		CCAB299A1C0C858800AEE3D5 /* login_username_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_username_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				CC487B691C0C54000066D8DC /* lanch.png */,
 				CC6008071C08393D00CA7708 /* Info.plist */,
 				CC6008081C08393D00CA7708 /* main.m */,
+				CCAB299A1C0C858800AEE3D5 /* login_username_icon@2x.png */,
 				CC6008711C083C1400CA7708 /* image */,
 			);
 			name = "Supporting Files";
@@ -198,7 +201,7 @@
 				CC6008361C083A1300CA7708 /* QYDiscoverViewController.h */,
 				CC6008371C083A1300CA7708 /* QYDiscoverViewController.m */,
 				CC6008391C083A1F00CA7708 /* QYMeViewController.h */,
-				CC60083A1C083A1F00CA7708 /* QYMeViewController.m */,
+				CC487B721C0C685D0066D8DC /* QYMeViewController.m */,
 			);
 			name = Conrollers;
 			sourceTree = "<group>";
@@ -276,7 +279,7 @@
 		CC6007FB1C08393D00CA7708 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = qingyun;
 				TargetAttributes = {
 					CC6008021C08393D00CA7708 = {
@@ -325,6 +328,7 @@
 				CC487B711C0C64B80066D8DC /* icon.png in Resources */,
 				CC6008981C083C4000CA7708 /* tabbar_icon_media_normal@2x.png in Resources */,
 				CC6008121C08393D00CA7708 /* Main.storyboard in Resources */,
+				CCAB299B1C0C858800AEE3D5 /* login_username_icon@2x.png in Resources */,
 				CC487B6B1C0C54000066D8DC /* lanch.png in Resources */,
 				CC6008991C083C4000CA7708 /* tabbar_icon_news_highlight@2x.png in Resources */,
 				CC6008931C083C4000CA7708 /* tabbar_icon_found_highlight@2x.png in Resources */,
@@ -360,7 +364,7 @@
 			files = (
 				CC6008351C0839F300CA7708 /* QYVideoViewController.m in Sources */,
 				CC6008381C083A1300CA7708 /* QYDiscoverViewController.m in Sources */,
-				CC60083B1C083A1F00CA7708 /* QYMeViewController.m in Sources */,
+				CC487B731C0C685D0066D8DC /* QYMeViewController.m in Sources */,
 				CC6008321C0839E400CA7708 /* QYReaderViewController.m in Sources */,
 				CC60080F1C08393D00CA7708 /* ViewController.m in Sources */,
 				CC60080C1C08393D00CA7708 /* AppDelegate.m in Sources */,
@@ -428,6 +432,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -496,6 +501,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QYNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -508,6 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QYNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,6 +534,7 @@
 				);
 				INFOPLIST_FILE = QYNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYNews.app/QYNews";
 			};
@@ -542,6 +550,7 @@
 				);
 				INFOPLIST_FILE = QYNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYNews.app/QYNews";
 			};
